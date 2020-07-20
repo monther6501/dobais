@@ -13,10 +13,10 @@
  */
 @font-face {
     font-family: "ge";
-    src: url("../../../../assets/GEDinarOneMedium.eot") format("eot"),
-        url("../../../../assets/GEDinarOneMedium.woff") format("woff"),
-        url("../../../../assets/GEDinarOneMedium.ttf") format("truetype"),
-        url("../../../../assets/GEDinarOneMedium.svg#GEDinarOneMedium") format("svg");
+    src: url("assets/GEDinarOneMedium.eot") format("eot"),
+        url("assets/GEDinarOneMedium.woff") format("woff"),
+        url("assets/GEDinarOneMedium.ttf") format("truetype"),
+        url("assets/GEDinarOneMedium.svg#GEDinarOneMedium") format("svg");
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0-2f, U+40-10FFFF;
@@ -24,10 +24,10 @@
 
 @font-face {
     font-family: "ge_light";
-    src: url("../../../../assets/GEDinarOneLight.eot") format("eot"),
-        url("../../../../assets/GEDinarOneLight.woff") format("woff"),
-        url("../../../../assets/GEDinarOneLight.ttf") format("truetype"),
-        url("../../../../assets/GEDinarOneLight.svg#GEDinarOneLight") format("svg");
+    src: url("assets/GEDinarOneLight.eot") format("eot"),
+        url("assets/GEDinarOneLight.woff") format("woff"),
+        url("assets/GEDinarOneLight.ttf") format("truetype"),
+        url("assets/GEDinarOneLight.svg#GEDinarOneLight") format("svg");
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0-2f, U+40-10FFFF;
@@ -36,10 +36,10 @@
 
 @font-face {
     font-family: "ge_bold";
-    src: url("../../../../assets/GE_SS_Two_Bold.eot") format("eot"),
-        url("../../../../assets/GE_SS_Two_Bold.woff") format("woff"),
-        url("../../../../assets/GE_SS_Two_Bold.ttf") format("truetype"),
-        url("../../../../assets/GE_SS_Two_Bold.svg#GE_SS_Two_Bold") format("svg");
+    src: url("assets/GE_SS_Two_Bold.eot") format("eot"),
+        url("assets/GE_SS_Two_Bold.woff") format("woff"),
+        url("assets/GE_SS_Two_Bold.ttf") format("truetype"),
+        url("assets/GE_SS_Two_Bold.svg#GE_SS_Two_Bold") format("svg");
     font-weight: normal;
     font-style: normal;
     unicode-range: U+0-2f, U+40-10FFFF;
@@ -90,7 +90,7 @@ body {
 }
 
 .layout-boxed {
-    background: url('../../../../img/boxed-bg.jpg') repeat fixed;
+    background: url('img/boxed-bg.jpg') repeat fixed;
 }
 
 lebel {
@@ -5162,8 +5162,8 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
 
-  src: url('../../../../fonts/glyphicons-halflings-regular.eot');
-  src: url('../../../../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../../../../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../../../../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../../../../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../../../../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+  src: url('fonts/glyphicons-halflings-regular.eot');
+  src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -11618,7 +11618,6 @@ button.close {
 .skin-blue.layout-top-nav .main-header > .logo:hover {
   background: #3b8ab8;
 }
-
 
 
 
