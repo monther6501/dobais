@@ -8368,9 +8368,6 @@ h6 {
 /*    --------------------------------------------------------------------------  */
 /*    ------------------------- product details --------------------------------  */
 /*    --------------------------------------------------------------------------  */
-.bradcam_bg_1 {
-    background-image: url(../img/banner/bradcam.png);
-}
 
 .bg_store_1 {
     position: absolute;
@@ -12368,7 +12365,6 @@ span.black-font {
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
-    background-image: url(../img/banner/banner.png);
     vertical-align: middle;
 }
 
