@@ -187,12 +187,12 @@ if(testmonial.length){
         0:{
             items:1,
             dots:false,
-            nav:false,
+            nav:true,
         },
         767:{
             items:1,
             dots:false,
-            nav:false,
+            nav:true,
         },
         992:{
             items:1,
