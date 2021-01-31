@@ -94,6 +94,7 @@ body {
 
 @media only screen and (max-width: 1090px) {
     body {
+
         padding: 99px 0 0 0;
     }
 }
@@ -5708,6 +5709,88 @@ select option {
 #questions .load_more_button:hover {
     background: #EFC76A;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+
+/*********************************
+         21. Product
+*********************************/
+
+#general_banner {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 200px;
+    width: 100%;
+    max-width: 100%;
+    clear: both;
+    position: relative;
+}
+
+#general_banner .banner_block {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#general_banner .banner_box {
+    position: absolute;
+    top: 80px;
+    left: calc(50% - 150px);
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0;
+    width: 300px;
+    font-size: 30px;
+    color: #000;
+    font-family: 'ge_bold';
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1400px) {
+    #general_banner {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    #general_banner {
+        height: 180px;
+    }
+
+    #general_banner .banner_box {
+        top: 70px;
+        font-size: 26px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    #general_banner {
+        height: 150px;
+    }
+
+    #general_banner .banner_box {
+        top: 55px;
+        font-size: 22px;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+    #general_banner {
+        height: 120px;
+    }
+
+    #general_banner .banner_box {
+        top: 35px;
+        font-size: 20px;
+    }
+
 }
 
 
