@@ -83,8 +83,8 @@
 }
 
 body {
-    padding: 130px 0 0 0;
-    font-family: 'Rubik', sans-serif;
+    padding: 109px 0 0 0;
+    font-family: 'ge', sans-serif;
     font-size: 14px;
     font-weight: 400;
     background: #FFFFFF;
@@ -93,10 +93,11 @@ body {
 }
 
 @media only screen and (max-width: 1090px) {
-            body {
-    padding: 120px 0 0 0;
-            }
-        }
+    body {
+        padding: 99px 0 0 0;
+    }
+}
+
 
 div {
     display: block;
@@ -4818,15 +4819,15 @@ select option {
     }
 }
 
- /* ============================================== */
-            /* =============== Account Signup ============== */
-            /* ============================================== */
-            .account_signup_table {
-                width: 100%;
-            }
-        
-            .account_signup_table tr td{
-                display: inline-block;
+/* ============================================== */
+/* =============== Account Signup ============== */
+/* ============================================== */
+.account_signup_table {
+    width: 100%;
+}
+
+.account_signup_table tr td {
+    display: inline-block;
     width: calc(50% - 10px);
     height: 100%;
     background: #fff;
@@ -4839,9 +4840,9 @@ select option {
     float: right;
     cursor: pointer;
     border-radius: 10px;
-            }
-            
-            .account_signup_table tr td:hover {
+}
+
+.account_signup_table tr td:hover {
     border: 1px solid #aaa;
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     background: #F9F9F9;
@@ -4850,14 +4851,16 @@ select option {
 /* == Logo == */
 .account_signup_table .image_block {
     display: inline-block;
-    width: 50px;
-    height: 100%;
+    width: 60px;
+    height: 60px;
     text-align: center;
-    line-height: 50px;
+    line-height: 60px;
     padding: 0;
     margin: 0;
     vertical-align: top;
     position: relative;
+    background: #E8AF3D;
+    border-radius: 50%;
 }
 
 
@@ -4865,13 +4868,11 @@ select option {
     display: inline-block;
     margin: 0;
     padding: 0;
-    padding: 11px;
     text-align: center;
     font-weight: normal;
-    font-size: 22px;
+    font-size: 28px;
     color: #fff;
-    background: #E8AF3D;
-    border-radius: 50%;
+    line-height: 60px;
 }
 
 .account_signup_table .logo_block .circle_logo {
@@ -4908,7 +4909,7 @@ select option {
 }
 
 .account_signup_table .name_block p.name {
-    margin: 10px 3px 5px 3px;
+    margin: 10px 3px 7px 3px;
     text-align: center;
     font-weight: normal;
     height: 16px;
@@ -4928,7 +4929,7 @@ select option {
     color: #888;
 }
 
-        
+
 
 /*********************************
            20. Singup
@@ -5811,30 +5812,6 @@ select option {
     padding: 0px 7px 15px 7px;
 }
 
-@media screen and (max-width: 576px) {
-    #products_list {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    
-    /* == Side of Code and % == */
-    .product_block .product_image_block {
-        display: block;
-        width: 100%;
-        height: 150px;
-        padding: 2px;
-        border-radius: 5px
-    }
-
-    .product_block .empty_block {
-        top: 90px;
-    }
-
-    .products_list_item {
-        padding: 0px 5px 15px 5px;
-    }
-}
-
 @media screen and (max-width: 650px) {
 
     .products_slider_nav_container {
@@ -5844,8 +5821,8 @@ select option {
         width: auto;
 
     }
-    
-    
+
+
     /* == Side of Code and % == */
     .product_block .product_image_block {
         display: block;
@@ -5869,6 +5846,31 @@ select option {
         margin-right: 15px;
     }
 
+}
+
+
+@media screen and (max-width: 576px) {
+    #products_list {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /* == Side of Code and % == */
+    .product_block .product_image_block {
+        display: block;
+        width: 100%;
+        height: 150px;
+        padding: 2px;
+        border-radius: 5px
+    }
+
+    .product_block .empty_block {
+        top: 90px;
+    }
+
+    .products_list_item {
+        padding: 0px 5px 15px 5px;
+    }
 }
 
 
@@ -5909,7 +5911,7 @@ select option {
 }
 
 .block_fiexd_shadow {
-   
+
     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -6362,7 +6364,7 @@ select option {
         width: auto;
 
     }
-    
+
 
     .stores_slider_nav {
         display: inline-block;
