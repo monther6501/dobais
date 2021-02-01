@@ -110,7 +110,7 @@ div {
 
 ul {
     list-style: none;
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 p {
@@ -291,7 +291,7 @@ section {
 }
 
 .nopadding {
-    padding: 0 !important;
+    padding: 0px !important;
 }
 
 .button {
@@ -359,7 +359,7 @@ section {
 }
 
 .top_bar_contact_item:not(:first-child) {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .top_bar_contact_item a {
@@ -379,7 +379,7 @@ section {
 }
 
 .top_bar_contact_item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .top_bar_icon {
@@ -466,7 +466,7 @@ section {
     visibility: hidden;
     opacity: 0;
     background: #FFFFFF;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
     -webkit-transition: opacity 0.3s ease;
     -moz-transition: opacity 0.3s ease;
     -ms-transition: opacity 0.3s ease;
@@ -883,7 +883,7 @@ select:hover {
 .main_nav {
     width: 100%;
     border-top: solid 1px #f2f2f2;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
     background: #FFFFFF;
 }
 
@@ -955,7 +955,7 @@ select:hover {
 	opacity: 0;*/
     min-width: 100%;
     background: #FFFFFF;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
     -webkit-transition: opacity 0.3s ease;
     -moz-transition: opacity 0.3s ease;
     -ms-transition: opacity 0.3s ease;
@@ -1027,7 +1027,7 @@ select:hover {
     opacity: 0;
     width: 100%;
     background: #FFFFFF;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
 }
 
 .cat_menu li:hover > ul {
@@ -1041,7 +1041,7 @@ select:hover {
 }
 
 .main_nav_dropdown li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .main_nav_dropdown li a {
@@ -1054,7 +1054,7 @@ select:hover {
 .main_nav_dropdown li li {
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .menu_trigger_container {
@@ -1097,7 +1097,7 @@ select:hover {
 }
 
 .page_menu_content {
-    height: 0;
+    height: 0px;
     background: #0e8ce4;
     padding-left: 15px;
     padding-right: 15px;
@@ -1158,7 +1158,7 @@ select:hover {
 .page_menu_selection {
     margin: 0;
     width: 100%;
-    height: 0;
+    height: 0px;
     overflow: hidden;
     z-index: 1;
 }
@@ -1200,7 +1200,7 @@ select:hover {
 }
 
 .menu_contact_item:not(:first-child) {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .menu_contact_item a {
@@ -1220,7 +1220,7 @@ select:hover {
 }
 
 .menu_contact_item:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .menu_contact_icon {
@@ -1324,7 +1324,7 @@ select:hover {
 .char_item {
     width: 100%;
     height: 100px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     border: solid 1px #e8e8e8;
     padding-left: 36px;
 }
@@ -1369,7 +1369,7 @@ select:hover {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 35px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
 
@@ -1518,7 +1518,7 @@ select:hover {
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
     transform: translateY(-50%);
-    right: 0;
+    right: 0px;
     width: 1px;
     height: 25px;
     background: #e5e5e5;
@@ -1614,7 +1614,7 @@ select:hover {
 }
 
 .tabs ul li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .tabs ul li.active {
@@ -1694,7 +1694,7 @@ select:hover {
 }
 
 .slick-active .featured .product_item:hover {
-    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 25px rgba(0, 0, 0, 0.1);
     z-index: 10;
 }
 
@@ -1770,7 +1770,7 @@ select:hover {
 .featured .product_extras {
     width: 100%;
     background: #FFFFFF;
-    max-height: 0;
+    max-height: 0px;
     overflow: hidden;
     -webkit-transition: max-height 200ms ease;
     -moz-transition: max-height 200ms ease;
@@ -1823,7 +1823,7 @@ select:hover {
 
 .featured .product_cart_button {
     position: relative;
-    left: 0;
+    left: 0px;
     visibility: hidden;
     opacity: 0;
     width: 100%;
@@ -1870,8 +1870,8 @@ select:hover {
     height: 15px;
     border: none;
     outline: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     border-radius: 50%;
     content: '';
     background: #e8e8e8;
@@ -1893,7 +1893,7 @@ select:hover {
 }
 
 .featured_slider .slick-dots li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .featured_slider .slick-dots li button {
@@ -1923,7 +1923,7 @@ select:hover {
     width: 36px;
     height: 36px;
     background: #FFFFFF;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     visibility: hidden;
     opacity: 0;
@@ -1935,7 +1935,7 @@ select:hover {
 }
 
 .product_fav:hover {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .product_item:hover .product_fav {
@@ -2048,7 +2048,7 @@ select:hover {
     display: inline-block;
     width: 36px;
     height: 36px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
@@ -2056,7 +2056,7 @@ select:hover {
 }
 
 .popular_categories_nav:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .popular_categories_nav i {
@@ -2193,12 +2193,12 @@ select:hover {
     background: #FFFFFF;
     border-radius: 50%;
     margin-right: 16px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 .banner_2_dots .owl-dot:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .banner_2_dots .owl-dot.active {
@@ -2285,8 +2285,8 @@ select:hover {
     height: 15px;
     border: none;
     outline: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     border-radius: 50%;
     content: '';
     background: #e8e8e8;
@@ -2308,7 +2308,7 @@ select:hover {
 }
 
 .arrivals_slider .slick-dots li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .arrivals_slider .slick-dots li button {
@@ -2355,7 +2355,7 @@ select:hover {
 
 .arrivals_single_button {
     position: relative;
-    left: 0;
+    left: 0px;
     width: 100%;
     height: 48px;
     background: #0e8ce4;
@@ -2433,7 +2433,7 @@ select:hover {
     display: block;
     position: absolute;
     top: -15px;
-    left: 0;
+    left: 0px;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -2469,11 +2469,11 @@ select:hover {
 .arrivals_single .product_fav {
     position: absolute;
     top: -15px;
-    right: 0;
+    right: 0px;
     width: 36px;
     height: 36px;
     background: #FFFFFF;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     visibility: visible;
     opacity: 1;
@@ -2485,7 +2485,7 @@ select:hover {
 }
 
 .product_fav:hover {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .product_fav i {
@@ -2708,8 +2708,8 @@ select:hover {
     height: 15px;
     border: none;
     outline: none;
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     border-radius: 50%;
     content: '';
     background: #e8e8e8;
@@ -2731,7 +2731,7 @@ select:hover {
 }
 
 .bestsellers_slider .slick-dots li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .bestsellers_slider .slick-dots li button {
@@ -2752,7 +2752,7 @@ select:hover {
     width: 100%;
     height: 180px;
     border: solid 1px #e8e8e8;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
 }
 
 .advert_content {
@@ -2848,7 +2848,7 @@ select:hover {
 }
 
 .trends_text p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .trends_slider_nav {
@@ -2859,7 +2859,7 @@ select:hover {
     display: inline-block;
     width: 36px;
     height: 36px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
@@ -2867,7 +2867,7 @@ select:hover {
 }
 
 .trends_nav:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .trends_nav i {
@@ -2940,7 +2940,7 @@ select:hover {
     width: 36px;
     height: 36px;
     background: #FFFFFF;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     visibility: hidden;
     opacity: 0;
@@ -2958,7 +2958,7 @@ select:hover {
 }
 
 .trends_fav:hover {
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .trends_item:hover .trends_fav {
@@ -3114,7 +3114,7 @@ select:hover {
 }
 
 .review_text p:last-child {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .reviews_dots {
@@ -3136,12 +3136,12 @@ select:hover {
     background: #e8e8e8;
     border-radius: 50%;
     margin-right: 16px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 .reviews_dots .owl-dot:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .reviews_dots .owl-dot.active {
@@ -3321,7 +3321,7 @@ select:hover {
 .brands_slider_container {
     height: 130px;
     border: solid 1px #e8e8e8;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     padding-left: 97px;
     padding-right: 97px;
 }
@@ -3380,7 +3380,7 @@ select:hover {
     background: #fafafa;
     padding-top: 60px;
     padding-bottom: 60px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
 }
 
 .newsletter_container {
@@ -3440,7 +3440,7 @@ select:hover {
 
 .newsletter_input:focus {
     border: solid 1px rgba(14, 140, 228, 0.3);
-    box-shadow: 0 1px 5px rgba(14, 140, 228, 0.3);
+    box-shadow: 0px 1px 5px rgba(14, 140, 228, 0.3);
 }
 
 .newsletter_input::-webkit-input-placeholder {
@@ -3554,7 +3554,7 @@ select:hover {
 }
 
 .footer_contact_text p {
-    margin-bottom: 0;
+    margin-bottom: 0px;
 }
 
 .footer_social {
@@ -3568,7 +3568,7 @@ select:hover {
     background: #fafafa;
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     margin-right: 16px;
     text-align: center;
 }
@@ -3650,7 +3650,7 @@ select:hover {
 }
 
 .logos_list li:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 */
 
@@ -3666,8 +3666,8 @@ select:hover {
 }
 
 .footer .footer_top {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
@@ -4060,7 +4060,7 @@ select:hover {
     height: 100%;
     width: calc(100% - 45px);
     margin: 0;
-    padding: 0 10px;
+    padding: 0px 10px;
     text-align: right;
     vertical-align: middle;
 }
@@ -4131,14 +4131,14 @@ select:hover {
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .modal_box .box_style_footer .button:hover,
 .modal_box .box_style_footer a.button:hover {
     background: #EFC76A;
     border: 1px solid #EFC76A;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 
@@ -4162,14 +4162,14 @@ select:hover {
     cursor: pointer;
     text-align: center;
     vertical-align: top;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .modal_box .box_style_footer .button_outline:hover,
 .modal_box .box_style_footer a.button_outline:hover {
     background: #E9B02B;
     border: 1px solid #E9B02B;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     color: #FFF;
 }
 
@@ -4249,8 +4249,8 @@ select:hover {
 
 .terms_box .feature-center p {
     padding-right: 5px;
-    margin-top: 0;
-    margin: 0 auto 10px auto;
+    margin-top: 0px;
+    margin: 0px auto 10px auto;
     font-family: 'ge';
 }
 
@@ -4281,9 +4281,9 @@ select:hover {
 }
 
 .box_shadow {
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 .form_block .form_header_block {
@@ -4307,7 +4307,7 @@ select:hover {
 
 .form_block .form_header_block .form_title {
     text-align: right;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     font-size: 22px;
     color: #FFF;
     line-height: 1.5;
@@ -4361,7 +4361,7 @@ select:hover {
 
 .input_block .error_checkbox {
     font-size: 10px;
-    margin: 0 2px 2px 2px;
+    margin: 0px 2px 2px 2px;
     color: transparent;
     text-align: right;
     font-family: 'ge';
@@ -4430,7 +4430,7 @@ select:hover {
     background: #fff;
     background-image: url("data:image/svg+xml;utf8,<svg fill='#aaa' height='35' viewBox='0 0 24 24' width='35' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
-    background-position-x: 0;
+    background-position-x: 0px;
     background-position-y: 5px;
     /*margin-right: 10px;*/
 }
@@ -4716,14 +4716,14 @@ select:hover {
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .input_block .button:hover,
 .input_block a.button:hover {
     background: #EFC76A;
     border: 1px solid #EFC76A;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 
@@ -4746,14 +4746,14 @@ select:hover {
     cursor: pointer;
     text-align: center;
     vertical-align: top;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .input_block .button_outline:hover,
 .input_block a.button_outline:hover {
     background: #E9B02B;
     border: 1px solid #E9B02B;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     color: #FFF;
 }
 
@@ -5089,12 +5089,12 @@ select:hover {
     border: 1px solid #E9B02B;
     border-radius: 50%;
     margin-left: 7px;
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
 
 .features_dots .owl-dot:last-child {
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .features_dots .owl-dot.active {
@@ -5209,7 +5209,7 @@ select:hover {
     width: 100px;
     height: auto;
     border-radius: 100%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0 5px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -5372,7 +5372,7 @@ select:hover {
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #packages .packages_body .button:hover {
@@ -5530,7 +5530,7 @@ select:hover {
     display: inline-block;
     width: 110px;
     height: auto;
-    margin: 20px 0;
+    margin: 20px 0px;
     cursor: pointer;
 }
 
@@ -5687,12 +5687,12 @@ select:hover {
     margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #questions .load_more_button:hover {
     background: #EFC76A;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 
@@ -5889,7 +5889,7 @@ select:hover {
 }
 
 .products_list_item {
-    padding: 0 7px 15px 7px;
+    padding: 0px 7px 15px 7px;
 }
 
 @media screen and (max-width: 650px) {
@@ -5949,7 +5949,7 @@ select:hover {
     }
 
     .products_list_item {
-        padding: 0 5px 15px 5px;
+        padding: 0px 5px 15px 5px;
     }
 }
 
@@ -5959,7 +5959,7 @@ select:hover {
     display: inline-block;
     padding: 5px 5px 1px 5px;
     height: 100%;
-    width: calc(100% - 0);
+    width: calc(100% - 0px);
     margin: 5px 0;
     background: #fff;
     border-radius: 7px;
@@ -5974,25 +5974,25 @@ select:hover {
 /* == Side of Icon of Delete == */
 .product_block:hover {
 
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 
 .product_block_fiexd {
-    width: calc(100% - 0);
+    width: calc(100% - 0px);
     margin: 5px 0;
     padding: 5px 5px 10px 5px;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
 .product_block_fiexd_no_shadow {
-    width: calc(100% - 0);
+    width: calc(100% - 0px);
     margin: 5px 0;
     padding: 5px 5px 10px 5px;
 }
 
 .block_fiexd_shadow {
 
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
 .product_block .product_digital_icon {
@@ -6004,7 +6004,7 @@ select:hover {
     background: #fff;
     color: #2c2c54;
     padding: 1px 10px;
-    border-radius: 0;
+    border-radius: 0px;
     font-family: sans-serif;
     text-align: center;
     border-top-left-radius: 7px;
@@ -6041,7 +6041,7 @@ select:hover {
     background: #CE5858;
     color: #fff;
     padding: 3px 7px;
-    border-radius: 0;
+    border-radius: 0px;
     font-family: sans-serif;
     text-align: center;
     border-top-right-radius: 7px;
@@ -6094,7 +6094,7 @@ select:hover {
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 3px 5px 0 5px;
+    padding: 3px 5px 0px 5px;
     overflow: hidden;
     vertical-align: top;
     clear: both;
@@ -6145,7 +6145,7 @@ select:hover {
     line-height: normal;
     overflow: hidden;
     font-family: 'ge';
-    padding: 2px 0;
+    padding: 2px 0px;
 }
 
 .product_block .product_info_block .product_other .product_brand {
@@ -6175,7 +6175,7 @@ select:hover {
     vertical-align: top;
     line-height: normal;
     overflow: hidden;
-    padding: 0;
+    padding: 0px;
 }
 
 
@@ -6246,7 +6246,7 @@ select:hover {
 .product_block .product_info_block .product_price .old_price span {
     font-size: 10px;
     font-family: 'ge';
-    margin-top: 0;
+    margin-top: 0px;
     margin-right: 1px;
     vertical-align: middle;
 }
@@ -6285,12 +6285,12 @@ select:hover {
     margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .load_more_button:hover {
     background: #EFC76A;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #questions a.load_more_button {
@@ -6306,12 +6306,12 @@ select:hover {
     margin-top: 20px;
     border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #questions a.load_more_button:hover {
     background: #EFC76A;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.15);
 }
 
 .load_more_loader {
@@ -6456,7 +6456,7 @@ select:hover {
 }
 
 .stores_list_item {
-    padding: 0 7px 7px 7px;
+    padding: 0px 7px 7px 7px;
 }
 
 @media screen and (max-width: 576px) {
@@ -6466,7 +6466,7 @@ select:hover {
     }
 
     .stores_list_item {
-        padding: 0 5px 5px 5px;
+        padding: 0px 5px 5px 5px;
     }
 
 }
@@ -6503,8 +6503,8 @@ select:hover {
     height: 100%;
     height: 216px;
     width: 200px;
-    width: calc(100% - 0);
-    margin: 5px 0;
+    width: calc(100% - 0px);
+    margin: 5px 0px;
     background: #fff;
     border-radius: 7px;
     overflow: hidden;
@@ -6517,10 +6517,10 @@ select:hover {
 }
 
 .store_block_fiexd {
-    width: calc(100% - 0);
+    width: calc(100% - 0px);
     margin: 5px 0;
     border: 1px solid #eee;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
 .store_block_brand {
@@ -6530,7 +6530,7 @@ select:hover {
 /* == Side of Icon of Delete == */
 .store_block:hover {
 
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
 }
 
 .store_block .store_like_icon {
@@ -6618,7 +6618,7 @@ select:hover {
 
 
 .store_block .store_info_block .store_rating {
-    margin-top: 0;
+    margin-top: 0px;
     text-align: center;
     margin-right: calc(50% - 100px);
     margin-left: calc(50% - 100px);
@@ -6728,8 +6728,8 @@ select:hover {
     top: 0;
     display: inline-block;
     padding: 20px 0 15px 0;
-    width: calc(100% - 0);
-    margin: 5px 0;
+    width: calc(100% - 0px);
+    margin: 5px 0px;
     background: #fff;
     height: 100%;
     border-radius: 7px;
@@ -6749,7 +6749,7 @@ select:hover {
     text-align: right;
     font-size: 18px;
     color: #E9B02B;
-    margin: 0 0 0 0;
+    margin: 0px 0 0px 0;
     padding-right: 15px;
     vertical-align: top;
     line-height: 1.2;
@@ -6763,7 +6763,7 @@ select:hover {
     text-align: right;
     font-size: 16px;
     color: #E9B02B;
-    margin: 0 0 0 0;
+    margin: 0px 0 0px 0;
     vertical-align: top;
     cursor: pointer
 }
@@ -6835,7 +6835,7 @@ select:hover {
     text-align: right;
     font-size: 14px;
     color: #302F51;
-    margin: 15px 0 5px 0;
+    margin: 15px 0px 5px 0;
     vertical-align: top;
     line-height: 1.2;
     font-family: 'ge_bold';
@@ -6845,7 +6845,7 @@ select:hover {
     display: inline-block;
     height: 100%;
     width: 100%;
-    margin: 0 0;
+    margin: 0px 0px;
     overflow: hidden;
     position: relative;
     padding-right: 10px;
@@ -6916,7 +6916,7 @@ select:hover {
     display: inline-block;
     height: 100%;
     width: 100%;
-    margin: 0 0;
+    margin: 0px 0px;
     overflow: hidden;
     position: relative;
     padding-right: 10px;
@@ -6957,13 +6957,13 @@ select.filter_select {
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
     font-family: "ge";
-    margin-right: 0;
-    width: calc(100% - 0);
+    margin-right: 0px;
+    width: calc(100% - 0px);
     border-color: #E9b02b;
     background-image: url("data:image/svg+xml;utf8,<svg fill='#E9b02b' height='35' viewBox='0 0 24 24' width='35' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
 
     background-repeat: no-repeat;
-    background-position-x: 0;
+    background-position-x: 0px;
     background-position-y: 2px;
     font-size: 13px;
     /*margin-right: 10px;*/
@@ -6994,12 +6994,12 @@ select.filter_select:hover {
     cursor: pointer;
     text-align: center;
     margin-bottom: -10px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .filter_button:hover {
     background: #EFC76A;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* ======= آيقونة زر فتح التصفية وغيره ======= */
@@ -7448,9 +7448,9 @@ select.filter_select:hover {
 }
 
 .box_shadow {
-    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -7607,7 +7607,7 @@ select.filter_select:hover {
     user-select: none;
     -webkit-user-select: none;
     background: rgba(255, 255, 255, 0.75);
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0 7px rgba(0, 0, 0, 0.15);
 }
 
 #product_page .images_slide_container-shadow .prev_image,
@@ -7640,7 +7640,7 @@ select.filter_select:hover {
 #product_page .prev_image:hover,
 #product_page .next_image:hover {
 
-    box-shadow: 0 0 7px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0 7px rgba(0, 0, 0, 0.4);
 }
 
 
@@ -7670,8 +7670,8 @@ select.filter_select:hover {
 #product_page .small_images_list .column {
     height: 100%;
     width: 60px;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     display: inline;
 }
 
@@ -7787,7 +7787,7 @@ select.filter_select:hover {
     background-position: center center;
     background-repeat: no-repeat;
     border: 4px solid transparent;
-    border: 0 solid #a1a1a1;
+    border: 0px solid #a1a1a1;
     border-radius: 10px;
     border: 1px solid #eee;
 }
@@ -7927,7 +7927,7 @@ select.filter_select:hover {
     display: inline-block;
     overflow: hidden;
     width: calc(100% - 115px);
-    padding: 2px 0;
+    padding: 2px 0px;
     vertical-align: middle;
     text-align: right;
 }
@@ -8065,7 +8065,7 @@ select.filter_select:hover {
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 #product_page .product_buttons .button i,
@@ -8079,7 +8079,7 @@ select.filter_select:hover {
 #product_page .product_buttons a.button:hover {
     background: #EFC76A;
     border: 1px solid #EFC76A;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
     color: #fff;
 }
 
@@ -8105,14 +8105,14 @@ select.filter_select:hover {
     cursor: pointer;
     text-align: center;
     vertical-align: top;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 #product_page .product_buttons .button_outline:hover,
 #product_page .product_buttons a.button_outline:hover {
     background: #E9B02B;
     border: 1px solid #E9B02B;
-    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2);
     color: #FFF;
 }
 
@@ -8336,13 +8336,13 @@ select.filter_select:hover {
     height: 65px;
     border: 1px solid #E9B02B;
     border-radius: 100%;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .product_info_block .product_store_block .product_store_info .product_store_name {
     font-family: "ge_bold";
     text-align: right;
-    padding-top: 0;
+    padding-top: 0px;
     font-size: 13px;
     color: #555;
 }
@@ -8350,7 +8350,7 @@ select.filter_select:hover {
 .product_info_block .product_store_block .product_store_info .product_store_city {
     font-family: "ge";
     text-align: right;
-    padding-top: 0;
+    padding-top: 0px;
     font-size: 12px;
     color: #888;
 }
@@ -8364,7 +8364,7 @@ select.filter_select:hover {
 }
 
 .product_info_block .product_store_block .product_store_info .star_ratings_block {
-    margin-top: 0;
+    margin-top: 0px;
     text-align: right;
     margin-left: calc(100% - 100px);
     overflow: hidden;
@@ -8494,14 +8494,14 @@ select.filter_select:hover {
     right: calc(50% - 95px);*/
     border: 2px solid #E9B02B;
     border-radius: 100%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 
 /* ==== خانة اسم ومدينة وتفاصيل البائع ==== */
 #store_home .store_info_block .store_home_block_info {
     margin-top: 50px;
-    padding: 0;
+    padding: 0px;
     text-align: right;
     overflow: hidden;
     display: inline-block;
@@ -8528,7 +8528,7 @@ select.filter_select:hover {
 }
 
 #store_home .store_info_block .store_home_block_info_city i {
-    padding: 5px 0 5px 5px;
+    padding: 5px 0px 5px 5px;
 }
 
 #store_home .store_info_block .store_home_block_info_details {
@@ -8553,7 +8553,7 @@ img.store_home_zigzag-img {
 
 /* ==== تقييم البائع ==== */
 #store_home .store_info_block .star_ratings_block {
-    margin-top: 0;
+    margin-top: 0px;
     text-align: right;
     margin-left: calc(100% - 100px);
     overflow: hidden;
@@ -8600,7 +8600,7 @@ img.store_home_zigzag-img {
     padding: 5px;
     height: 100%;
     width: 100%;
-    margin: 5px 0;
+    margin: 5px 0px;
     overflow: hidden;
     clear: both;
     -webkit-user-select: none;
@@ -8617,7 +8617,7 @@ img.store_home_zigzag-img {
     padding: 5px 5px;
     height: 100%;
     width: 100%;
-    margin: 0 0 10px 0;
+    margin: 0px 0px 10px 0px;
     -webkit-user-select: none;
     -khtml-user-select: none;
     -moz-user-select: none;
@@ -8629,7 +8629,7 @@ img.store_home_zigzag-img {
 
 #store_home .store_info_block .store_home_block_images a.one_image {
     display: inline-block;
-    margin: 0;
+    margin: 0px;
     padding: auto 10px;
     text-align: center;
     overflow: hidden;
@@ -8696,7 +8696,7 @@ img.store_home_zigzag-img {
     vertical-align: top;
 
     margin: 0;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 #store_home .store_info_block .store_home_block_buttons .special_button:hover {
@@ -8715,7 +8715,7 @@ img.store_home_zigzag-img {
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
     line-height: 0;
     vertical-align: top;
 }
@@ -9434,8 +9434,8 @@ img.store_home_zigzag-img {
 
 .Report-container .R-C-status {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     z-index: 1;
     padding: 5px;
     color: #fff;
@@ -9493,8 +9493,8 @@ img.store_home_zigzag-img {
 
 .O-container .R-C-status {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
     z-index: 1;
     padding: 5px;
     color: #fff;
@@ -9538,7 +9538,7 @@ img.store_home_zigzag-img {
 
 #progressbar {
     overflow: hidden;
-    padding-right: 0;
+    padding-right: 0px;
     margin-top: 20px;
 }
 
@@ -9589,7 +9589,7 @@ img.store_home_zigzag-img {
     color: #c5c5c5;
     border-radius: 50%;
     margin: auto;
-    padding: 0
+    padding: 0px
 }
 
 #progressbar li.download:before {
@@ -10048,7 +10048,7 @@ button.Spicific-O-button-outline:hover {
 
 .Spicific-O-container .SOD-chat .open-chat-button .fas {
     /* position: relative;
-    top: 0;
+    top: 0px;
     right: 100%;*/
     cursor: pointer;
     color: #c5c5c5;
@@ -10852,7 +10852,7 @@ button.Spicific-O-button-outline:hover {
     border-radius: 5px;
     outline: none;
     color: #000;
-    margin: 0;
+    margin: 0px;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -10863,8 +10863,8 @@ button.Spicific-O-button-outline:hover {
     border-color: #E9b02b;
     background-image: url("data:image/svg+xml;utf8,<svg fill='#E9b02b' height='25' viewBox='0 0 24 24' width='25' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
-    background-position-x: 0;
-    background-position-y: 0;
+    background-position-x: 0px;
+    background-position-y: 0px;
     font-size: 13px;
     /*margin-right: 10px;*/
 }
@@ -10904,7 +10904,7 @@ button.Spicific-O-button-outline:hover {
 .cart-container .product-details .digital-store-info {
     display: block;
     margin-top: 10px;
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .cart-container .product-details .digital-store-info .name {
@@ -10982,7 +10982,7 @@ button.Spicific-O-button-outline:hover {
     }
 
     .cart-container .product-price .sale {
-        top: 0;
+        top: 0px;
         left: 10px;
     }
 }
@@ -11062,7 +11062,7 @@ button.Spicific-O-button-outline:hover {
 .cart_product_container .cart_product_box .cart_product_details {
     display: inline-block;
     width: calc(100% - 150px);
-    padding: 5px 10px 1px 0;
+    padding: 5px 10px 1px 0px;
     height: auto;
     vertical-align: top;
     float: left;
@@ -11078,7 +11078,7 @@ button.Spicific-O-button-outline:hover {
     height: 34px;
     overflow: hidden;
     line-height: normal;
-    margin: 5px 0 10px 0;
+    margin: 5px 0px 10px 0;
     float: right;
     padding: 0;
 }
@@ -11091,7 +11091,7 @@ button.Spicific-O-button-outline:hover {
     color: #666;
     font-size: 13px;
     line-height: normal;
-    margin: 0;
+    margin: 0px;
     float: right;
 }
 
@@ -11104,7 +11104,7 @@ button.Spicific-O-button-outline:hover {
     border-radius: 5px;
     outline: none;
     color: #000;
-    margin: 0;
+    margin: 0px;
     font-family: "ge";
     width: 95px;
     background: transparent;
@@ -11129,14 +11129,14 @@ button.Spicific-O-button-outline:hover {
 .cart_product_container .cart_product_box .cart_product_details select.cart_product_quantity_select {
     height: 25px;
     line-height: 25px;
-    padding-right: 0;
+    padding-right: 0px;
     padding-left: 25px;
     border-radius: 5px;
     text-align: left;
     direction: ltr;
     outline: none;
     border: none;
-    margin: 0;
+    margin: 0px;
     background: transparent;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -11148,7 +11148,7 @@ button.Spicific-O-button-outline:hover {
     background-image: url("data:image/svg+xml;utf8,<svg fill='#E9b02b' height='25' viewBox='0 0 24 24' width='25' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/><path d='M0 0h24v24H0z' fill='none'/></svg>");
     background-repeat: no-repeat;
     background-position-x: 2px;
-    background-position-y: 0;
+    background-position-y: 0px;
     font-size: 12px;
     /*margin-right: 10px;*/
 }
@@ -11202,7 +11202,7 @@ button.Spicific-O-button-outline:hover {
 .cart_product_container .cart_product_box .cart_table {
     display: inline-block;
     width: calc(100% - 150px);
-    padding: 10px 10px 5px 0;
+    padding: 10px 10px 5px 0px;
     float: left;
 }
 
@@ -11254,7 +11254,7 @@ button.Spicific-O-button-outline:hover {
 .cart_product_container .cart_product_box .cart_table .cart_table_price .old_price span {
     font-size: 11px;
     font-family: 'ge';
-    margin-top: 0;
+    margin-top: 0px;
     margin-right: 3px;
     vertical-align: middle;
 }
@@ -11291,7 +11291,7 @@ button.Spicific-O-button-outline:hover {
     /* === تفاصيل المنتج === */
     .cart_product_container .cart_product_box .cart_product_details {
         width: calc(100% - 110px);
-        padding: 5px 10px 5px 0;
+        padding: 5px 10px 5px 0px;
 
     }
 
@@ -11301,7 +11301,7 @@ button.Spicific-O-button-outline:hover {
         font-size: 13px;
         line-height: 18px;
         height: 36px;
-        margin: 4px 0 7px 0;
+        margin: 4px 0px 7px 0;
     }
 
     /* === اسم المنتج === */
@@ -11313,7 +11313,7 @@ button.Spicific-O-button-outline:hover {
     /* === السعر === */
     .cart_product_container .cart_product_box .cart_table {
         width: 100%;
-        padding: 5px 0 5px 0;
+        padding: 5px 0px 5px 0px;
     }
 
     /* === السعر === */
@@ -11327,7 +11327,7 @@ button.Spicific-O-button-outline:hover {
 /* === السعر === */
 .cart_final_table {
     width: 100%;
-    padding: 10px 10px 5px 0;
+    padding: 10px 10px 5px 0px;
     margin-top: 10px;
 }
 
