@@ -134,6 +134,7 @@ p a {
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
+	text-decoration: none;
 }
 
 a,
@@ -5807,6 +5808,7 @@ select:hover {
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
+    height: 100%;
 }
 
 .products_slider_title_container,
@@ -5881,6 +5883,7 @@ select:hover {
 
 .products_slider_slider_container {
     padding-top: 20px;
+    background: #eee;
 }
 
 .products_slider_item {
@@ -5958,7 +5961,7 @@ select:hover {
 /* == Side of Icon of Delete == */
 .product_block {
     display: inline-block;
-    padding: 5px 5px 1px 5px;
+    padding: 5px 5px 10px 5px;
     height: auto;
     width: calc(100% - 0px);
     margin: 5px 0;
@@ -10687,4 +10690,9 @@ button.Spicific-O-button-outline:hover {
 
 .other-underline:hover {
     background-size: 100% 100%;
+}
+
+
+.owl-item {
+    height: auto;
 }
