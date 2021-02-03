@@ -5185,7 +5185,8 @@ select:hover {
 
 #store_type .store_type_title_container .store_type_title {
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
     color: #302F51;
     line-height: 1.5;
     font-family: "ge_bold";
@@ -5814,6 +5815,7 @@ select:hover {
 
 .products_slider_title {
     margin-bottom: 0;
+    font-size: 18px;
     color: #302F51;
     font-family: "ge_bold";
 }
@@ -5879,7 +5881,7 @@ select:hover {
 
 .products_slider_slider_container {
     padding-top: 20px;
-    background: #eee;
+    display: block;
 }
 
 .products_slider_item {
@@ -6383,6 +6385,7 @@ select:hover {
 
 .stores_slider_title {
     margin-bottom: 0;
+    font-size: 18px;
     color: #302F51;
     font-family: "ge_bold";
 }
@@ -7259,6 +7262,7 @@ select.filter_select:hover {
 }
 
 .categories_title {
+    font-size: 18px;
     margin-bottom: 0;
     color: #302F51;
     font-family: "ge_bold";
@@ -9105,8 +9109,8 @@ img.store_home_zigzag-img {
 
 .profile_box .profile-box-title {
     color: #000;
-    font-size: 24px;
-    margin-bottom: 37px;
+    font-size: 20px;
+    margin-bottom: 27px;
     font-family: "ge_bold";
     text-align: center;
 }
