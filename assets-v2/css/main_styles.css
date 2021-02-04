@@ -4944,7 +4944,8 @@ select:hover {
     clear: both;
     padding: 10px 5px;
     vertical-align: middle;
-    background: #FDF7EA
+    background: #FDF7EA;
+    background: #2c2c54;
 }
 
 #characteristics .characteristics_block .characteristics_icon {
@@ -4969,7 +4970,7 @@ select:hover {
     overflow: hidden;
     padding: 2px 5px;
     line-height: normal;
-    color: #2c2c54;
+    color: #E6AE3B;
     font-family: 'ge_bold';
 
 }
@@ -4984,6 +4985,11 @@ select:hover {
 
     #characteristics .characteristics_block .characteristics_icon {
         width: 100%;
+    }
+    
+    #characteristics .characteristics_block .characteristics_text {
+        text-align: center;
+        display: block;
     }
 
     #characteristics .characteristics_itme {
@@ -5075,7 +5081,7 @@ select:hover {
     position: absolute;
     bottom: 20px;
     left: calc(50% - 56.5px);
-    z-index: 1000000;
+    z-index: 9;
 }
 
 .features_dots .owl-dot {
@@ -5233,7 +5239,7 @@ select:hover {
     bottom: -45px;
     right: 0;
     height: 90px;
-    z-index: 999;
+    z-index: 9;
 }
 
 /* 768 */
@@ -5288,8 +5294,8 @@ select:hover {
     text-align: center;
     color: #444;
     line-height: 1.5;
-    font-family: "ge";
-    font-size: 15px;
+    font-family: "ge_bold";
+    font-size: 16px;
 }
 
 #packages .packages_block {
@@ -5409,7 +5415,7 @@ select:hover {
     top: -45px;
     right: 0;
     height: 90px;
-    z-index: 999;
+    z-index: 9;
 }
 
 .main-text-line {
@@ -7329,33 +7335,6 @@ select.filter_select:hover {
     overflow: hidden
 }
 
-
-@media screen and (max-width: 650px) {
-
-    .categories {
-        padding-top: 5px;
-        padding-bottom: 40px;
-    }
-
-    .categories_nav_container {
-        position: absolute;
-        text-align: center;
-        width: 100%;
-        bottom: -26px;
-    }
-
-    .categories_next {
-        right: 0;
-    }
-
-    .categories_prev {
-        left: 0;
-        float: none
-    }
-
-
-}
-
 .categories_item {
     width: 100%;
     border-radius: 8px;
@@ -7367,8 +7346,8 @@ select.filter_select:hover {
 }
 
 .categories_image {
-    width: 85px;
-    height: 85px;
+    width: 95px;
+    height: 95px;
     border-radius: 100%;
     position: relative;
 }
@@ -7430,6 +7409,39 @@ select.filter_select:hover {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
+
+
+@media screen and (max-width: 650px) {
+
+    .categories {
+        padding-top: 5px;
+        padding-bottom: 50px;
+    }
+
+    .categories_nav_container {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        bottom: -15px;
+    }
+
+    .categories_next {
+        right: 0;
+    }
+
+    .categories_prev {
+        left: 0;
+        float: none
+    }
+    
+    
+    .categories_image {
+        width: 85px;
+        height: 85px;
+    }
+
+
+}
 
 
 
@@ -9431,13 +9443,14 @@ img.store_home_zigzag-img {
     border: solid 1.4px #e5e5e5;
     border-radius: 7px;
     background: #fff;
-
+    cursor: default;
 }
 
+/*
 .Report-container:hover {
     border: solid 1.4px #E9b02b;
     cursor: default;
-}
+}*/
 
 .Report-container .R-C-status {
     position: absolute;
@@ -9459,10 +9472,12 @@ img.store_home_zigzag-img {
 
 .Report-container .R-C-status.new-report {
     background: #01A65A !important;
+    background: #DD4B39 !important;
 }
 
 .Report-container .R-C-status.close-report {
     background: #DD4B39 !important;
+    background: #01A65A !important;
 }
 
 .Report-container .right .R-C-other {
