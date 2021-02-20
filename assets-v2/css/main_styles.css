@@ -4462,7 +4462,7 @@ select:hover {
     padding: 10px;
     border: solid 1px #e5e5e5;
     border-radius: 7px;
-    color: #2e2e58;
+    color: #000;
     outline: none;
     resize: none;
     -webkit-transition: all 200ms ease;
@@ -4917,6 +4917,11 @@ select:hover {
            20. Singup
 *********************************/
 
+            
+/*********************************
+           20. Singup
+*********************************/
+          
 .title_container {
     padding: 10px;
 }
@@ -4927,7 +4932,137 @@ select:hover {
     color: #302F51;
     line-height: 1.5;
     font-family: "ge_bold";
+}  
+            
+/* =========================================== */
+/* ================= Banners ================ */
+/* =========================================== */
+            
+            #signup_banner {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 30px 0px 0px 0px;
+    height: auto;
+    width: 100%;
+    /*margin-top: 65px;*/
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    padding: 10px 30px;
+    cursor: pointer;
 }
+
+#signup_banner .banner_block {
+    display: block;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    width: auto;
+    max-width: 100%;
+    border: 1px solid #fff;
+}
+
+
+/* 1400 */
+        
+@media only screen and (max-width: 2400px) {
+
+    #signup_banner .banner_block {
+        height: 400px;
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+/* 1300 */
+@media only screen and (max-width: 1300px) {
+
+    #signup_banner .banner_block {
+        height: 350px;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+
+    #signup_banner .banner_block {
+        height: auto;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+/* 1100 *
+@media only screen and (max-width: 1100px) {
+
+    #signup_banner .banner_block {
+        height: 266px;
+    }
+}
+
+/* 1000 *
+@media only screen and (max-width: 990px) {
+
+    #signup_banner .banner_block {
+        height: 233px;
+    }
+}
+
+/* 900 *
+@media only screen and (max-width: 900px) {
+
+    #signup_banner .banner_block {
+        height: 200px;
+    }
+}
+
+/* 800 *
+@media only screen and (max-width: 800px) {
+
+    #signup_banner .banner_block {
+        height: 266px;
+    }
+}
+
+/* 700 *
+@media only screen and (max-width: 700px) {
+
+    #signup_banner .banner_block {
+        height: 133px;
+    }
+}
+
+/* 600 *
+@media only screen and (max-width: 600px) {
+
+    #signup_banner .banner_block {
+        height: 133px;
+    }
+}
+
+/* 500 *
+@media only screen and (max-width: 500px) {
+
+    #signup_banner .banner_block {
+        height: 133px;
+    }
+}
+
+/* 400 *
+@media only screen and (max-width: 400px) {
+
+    #signup_banner .banner_block {
+        height: 133px;
+    }
+
+}
+ */
+
 
 /* ============================================== */
 /* =============== Characteristics ============== */
@@ -4946,6 +5081,7 @@ select:hover {
     vertical-align: middle;
     background: #FDF7EA;
     background: #2c2c54;
+    text-align: center;
 }
 
 #characteristics .characteristics_block .characteristics_icon {
@@ -4987,9 +5123,16 @@ select:hover {
         width: 100%;
     }
     
+    #characteristics .characteristics_block .characteristics_icon img {
+        width: 35px;
+        height: 35px;
+    }
+    
     #characteristics .characteristics_block .characteristics_text {
         text-align: center;
         display: block;
+        font-size: 12px;
+        padding: 5px 2px;
     }
 
     #characteristics .characteristics_itme {
@@ -5005,32 +5148,36 @@ select:hover {
 /* ============================================== */
 #features {
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     display: block;
     background: #F5F7FA;
+    background: #FFFFFF;
     position: relative;
 }
 
 .features_block {
 
     display: block;
-    margin: auto 200px;
-    width: calc(100% - 400px);
+    margin: 10px;
+    width: 100%;
     overflow: hidden;
     clear: both;
     padding: 10px 10px 10px 10px;
     vertical-align: middle;
+    border-radius: 10px;
+    background: #F5F7FA;
 }
 
 .features_block .features_icon_block {
 
     display: inline-block;
-    width: 150px;
+    width: 130px;
+    height: 124px;
+    text-align: center;
     overflow: hidden;
-    padding-left: 10px;
-    vertical-align: bottom;
-    float: right;
-    padding: 10px;
+    vertical-align: middle;
+    padding: 2px;
+    float: none;
 }
 
 .features_block .features_icon_block img {
@@ -5038,19 +5185,30 @@ select:hover {
     width: auto;
     height: auto;
     max-height: 120px;
+    max-width: 112px;
+    margin: 3px 4px;
+}
+            
+.features_block .features_icon_block img.widths {
+
+    width: auto;
+    height: auto;
+    
+    margin: 4px 0px;
+    max-height: 112px;
     max-width: 120px;
 }
 
 .features_block .features_text_block {
     text-align: right;
     display: inline-block;
-    width: calc(100% - 160px);
+    width: calc(100% - 140px);
     font-size: 14px;
-    vertical-align: middle;
+    vertical-align: top;
     overflow: hidden;
-    padding: 10px;
-
-    float: left;
+    padding: 5px 0px;
+    padding-right: 10px;
+    float: none;
 
 }
 
@@ -5059,7 +5217,7 @@ select:hover {
     display: block;
     font-size: 15px;
     font-family: 'ge_bold';
-    margin: 15px 0px 10px 0px;
+    margin: 5px 0px 5px 0px;
     color: #2c2c54;
 }
 
@@ -5133,7 +5291,7 @@ select:hover {
     z-index: 1;
 }
 
-/* 1199 */
+/* 1199 *
 @media only screen and (max-width: 1199px) {
 
     .features_block {
@@ -5143,7 +5301,7 @@ select:hover {
 
 }
 
-/* 991 */
+/* 991 *
 @media only screen and (max-width: 991px) {
 
     .features_block {
@@ -5152,7 +5310,7 @@ select:hover {
     }
 }
 
-/* 768 */
+/* 768 *
 @media only screen and (max-width: 768px) {
 
     .features_item {
@@ -5181,8 +5339,10 @@ select:hover {
 #store_type {
     padding-top: 30px;
     padding-bottom: 30px;
+    padding: 30px 350px;
     display: block;
     position: relative;
+    background: #EAF3FA;
 }
 
 #store_type .store_type_title_container {
@@ -5191,7 +5351,7 @@ select:hover {
 
 #store_type .store_type_title_container .store_type_title {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 18px;
     color: #302F51;
     line-height: 1.5;
@@ -5199,18 +5359,27 @@ select:hover {
 }
 
 .store_type_block {
-
     display: block;
-    width: 100%;
     overflow: hidden;
+    margin-bottom: 20px;
     clear: both;
-    padding: 10px 10px 30px 10px;
+    padding: 20px 10px 30px 10px;
+    background: #FFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    /*
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    margin-right: calc(50% - 150px);*/
 }
 
 .store_type_block img {
 
     display: block;
     width: 100px;
+    margin: 0px auto;
     height: auto;
     border-radius: 100%;
     box-shadow: 0px 0 5px rgba(0, 0, 0, 0.2);
@@ -5219,7 +5388,7 @@ select:hover {
 
 .store_type_block .title {
     display: block;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'ge_bold';
     margin: 15px 0px 10px 0px;
     color: #2c2c54;
@@ -5230,7 +5399,7 @@ select:hover {
     font-size: 14px;
     font-family: 'ge';
     margin: 5px 0px 5px 0px;
-    color: #555;
+    color: #222;
 }
 
 #store_type .right_square {
@@ -5244,6 +5413,10 @@ select:hover {
 
 /* 768 */
 @media only screen and (max-width: 768px) {
+  
+    .store_type_block {
+        height: 250px;
+    }
 
     .store_type_block img {
         width: 80px;
@@ -5259,6 +5432,89 @@ select:hover {
     }
 
 }
+            
+
+/* 1700 */
+@media only screen and (max-width: 1700px) {
+
+    #store_type {
+        padding: 30px 350px;
+    }
+}
+            
+/* 1600 */
+@media only screen and (max-width: 1600px) {
+
+    #store_type {
+        padding: 30px 320px;
+    }
+}
+            
+/* 1500 */
+@media only screen and (max-width: 1500px) {
+
+    #store_type {
+        padding: 30px 270px;
+    }
+}
+            
+/* 1400 */
+@media only screen and (max-width: 1400px) {
+
+    #store_type {
+        padding: 30px 220px;
+    }
+}
+            
+/* 1300 */
+@media only screen and (max-width: 1300px) {
+
+    #store_type {
+        padding: 30px 170px;
+    }
+}
+            
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+
+    #store_type {
+        padding: 30px 120px;
+    }
+}
+            
+/* 1100 */
+@media only screen and (max-width: 1100px) {
+
+    #store_type {
+        padding: 30px 100px;
+    }
+}
+            
+/* 1000 */
+@media only screen and (max-width: 1000px) {
+
+    #store_type {
+        padding: 30px 10px;
+    }
+}
+            
+/* 900 */
+@media only screen and (max-width: 900px) {
+
+    #store_type {
+        padding: 30px 10px;
+    }
+}
+            
+/* 800 */
+@media only screen and (max-width: 800px) {
+
+    #store_type {
+        padding: 30px 10px;
+    }
+}
+
+
 
 /* ============================================== */
 /* ================= Packages =================== */
@@ -5462,14 +5718,16 @@ select:hover {
 /* ============================================== */
 /* ================ App Download ================ */
 /* ============================================== */
+
 #app_download {
     padding-top: 40px;
     padding-bottom: 40px;
+    padding: 40px 400px;
     display: block;
     background: #FFFFFF;
     position: relative;
     overflow: hidden;
-    height: auto;
+    height: 100%;
     width: 100%;
 }
 
@@ -5477,7 +5735,7 @@ select:hover {
 
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     overflow: hidden;
     padding-left: 10px;
     padding: 10px;
@@ -5499,40 +5757,42 @@ select:hover {
 }
 
 #app_download .app_download_text_container {
-    height: auto;
+    height: 100%;
     width: 100%;
     display: table;
 }
 
 #app_download .app_download_text {
-    text-align: right;
+    text-align: center;
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
     vertical-align: middle;
     overflow: hidden;
-    padding: 10px;
+    padding: 10px 0;
     display: table-cell;
 }
 
 #app_download .app_download_text .app_download_title {
     display: block;
+    font-size: 28px;
     font-family: 'ge_bold';
-    margin: 15px 0px 10px 0px;
+    margin: 15px 0 10px 0;
     color: #2c2c54;
 }
 
 #app_download .app_download_text .app_download_details {
     display: block;
-    font-size: 15px;
+    font-size: 16px;
     font-family: 'ge';
-    margin: 5px 0px 5px 0px;
+    font-family: 'ge_bold';
+    margin: 5px 0 5px 0;
     color: #222;
 }
 
 #app_download .app_download_image {
     display: inline-block;
-    width: 110px;
+    width: 140px;
     height: auto;
     margin: 20px 0px;
     cursor: pointer;
@@ -5601,19 +5861,107 @@ select:hover {
     }
 }
 
+            /* 1700 */
+@media only screen and (max-width: 1700px) {
+
+    #app_download {
+        padding: 40px 350px;
+    }
+}
+            
+/* 1600 */
+@media only screen and (max-width: 1600px) {
+
+    #app_download {
+        padding: 40px 310px;
+    }
+}
+            
+/* 1500 */
+@media only screen and (max-width: 1500px) {
+
+    #app_download {
+        padding: 40px 260px;
+    }
+}
+            
+/* 1400 */
+@media only screen and (max-width: 1400px) {
+
+    #app_download {
+        padding: 40px 210px;
+    }
+}
+            
+/* 1300 */
+@media only screen and (max-width: 1300px) {
+
+    #app_download {
+        padding: 40px 160px;
+    }
+}
+            
+/* 1200 */
+@media only screen and (max-width: 1200px) {
+
+    #app_download {
+        padding: 40px 110px;
+    }
+}
+            
+/* 1100 */
+@media only screen and (max-width: 1100px) {
+
+    #app_download {
+        padding: 40px 90px;
+    }
+}
+            
+/* 1000 */
+@media only screen and (max-width: 1000px) {
+
+    #app_download {
+        padding: 40px 10px;
+    }
+}
+            
+/* 900 */
+@media only screen and (max-width: 900px) {
+
+    #app_download {
+        padding: 40px 10px;
+    }
+}
+            
+/* 800 */
+@media only screen and (max-width: 800px) {
+
+    #app_download {
+        padding: 40px 10px;
+    }
+}
+            
+/* 500 */
+@media only screen and (max-width: 500px) {
+
+    #app_download .app_download_image {
+        width: 120px;
+        height: auto;
+    }
+}
 
 
 
 /* ============================================== */
 /* ================== Questions ================= */
 /* ============================================== */
-
 #questions {
     padding-top: 20px;
     padding-bottom: 40px;
     margin-bottom: 50px;
     display: block;
     background: #EEEDDD;
+    background: #EAF3FA;
     display: block;
     position: relative;
 }
@@ -5626,7 +5974,7 @@ select:hover {
     text-align: center;
     margin-bottom: 10px;
     color: #302F51;
-    color: #8D8A47;
+    color: #34335C;
     line-height: 1.5;
     font-family: "ge_bold";
 }
@@ -5844,21 +6192,21 @@ select:hover {
     cursor: pointer;
 }
 
-.products_slider_next {
+.products_slider_next_style {
     right: -15px;
 }
 
-.products_slider_prev {
+.products_slider_prev_style {
     left: -20px;
     float: left
 }
 
 
-.products_slider_next i {
+.products_slider_next_style i {
     padding: 7px 0px 0px 2px;
 }
 
-.products_slider_prev i {
+.products_slider_prev_style i {
     padding: 7px 0px 0px 0px;
 }
 
@@ -5930,7 +6278,7 @@ select:hover {
         left: 1px;
     }
 
-    .products_slider_prev {
+    .products_slider_prev_style {
         margin-right: 15px;
     }
 
@@ -6414,21 +6762,21 @@ select:hover {
     cursor: pointer;
 }
 
-.stores_slider_next {
+.stores_slider_next_style {
     right: -15px;
 }
 
-.stores_slider_prev {
+.stores_slider_prev_style {
     left: -20px;
     float: left
 }
 
 
-.stores_slider_next i {
+.stores_slider_next_style i {
     padding: 7px 0px 0px 2px;
 }
 
-.stores_slider_prev i {
+.stores_slider_prev_style i {
     padding: 7px 0px 0px 0px;
 }
 
@@ -6499,7 +6847,7 @@ select:hover {
         left: 1px;
     }
 
-    .stores_slider_prev {
+    .stores_slider_prev_style {
         margin-right: 15px;
     }
 
@@ -6989,11 +7337,10 @@ select.filter_select:hover {
 }
 
 
-/* ======= زر التصفية ======= */
+                    /* ======= زر التصفية ======= */
 .filter_button {
     display: block;
     width: 100%;
-    max-width: 300px;
     text-align: 14px;
     font-family: 'ge_bold';
     padding: 8px 5px;
@@ -7003,14 +7350,42 @@ select.filter_select:hover {
     border-radius: 8px;
     cursor: pointer;
     text-align: center;
-    margin-bottom: -10px;
+    border: 1px solid #E9B02B;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
 
 .filter_button:hover {
     background: #EFC76A;
+    border: 1px solid #EFC76A;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* ======= زر إلغاء التصفية ======= */
+a.filter_button_outline {
+    display: block;
+    width: 100%;
+    text-align: 14px;
+    font-family: 'ge_bold';
+    padding: 8px 5px;
+    background: #E9B02B;
+    color: #fff;
+    background: #fff;
+    color: #E9B02B;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid #E9B02B;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+a.filter_button_outline:hover {
+    background: #EFC76A;
+    color: #fff;
+    border: 1px solid #EFC76A;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
 
 /* ======= آيقونة زر فتح التصفية وغيره ======= */
 .icon_header_filter {
@@ -7422,7 +7797,7 @@ select.filter_select:hover {
         position: absolute;
         text-align: center;
         width: 100%;
-        bottom: -15px;
+        bottom: -10px;
     }
 
     .categories_next {
@@ -9734,6 +10109,13 @@ p.progress-bar-status.digital {
     border-bottom: none;
 }
 
+.Spicific-O-status-text {
+                                            text-align: center;
+                                            font-family: 'ge';
+                                            margin: 10px 5px;
+                                            font-size: 15px;
+                                            color: #333;
+                                        }
 .Spicific-O-container .product-img {
     max-width: 180px;
     max-height: 200px;
@@ -9990,6 +10372,7 @@ button.Spicific-O-button-outline:hover {
 .SOD-box .product-img {
     max-width: 120px;
     max-height: 120px;
+    padding-left: 20px;
     width: 100%;
     height: auto;
     padding: auto;
@@ -10016,7 +10399,7 @@ button.Spicific-O-button-outline:hover {
 
 .SOD-box .SOD-details {
     text-align: right;
-    padding-right: 20px;
+    padding-right: 0px;
 }
 
 .SOD-box .title {
@@ -10322,11 +10705,13 @@ button.Spicific-O-button-outline:hover {
 
 @media screen and (max-width: 998px) {
     .SOD-chat .chat .chat-message .btn {
-        width: 60%;
+        width: 55%;
+        font-size: 12px;
     }
 
     .SOD-chat .chat .chat-message .btn-attachment {
-        width: 35%;
+        width: 40%;
+        font-size: 12px;
     }
 }
 
