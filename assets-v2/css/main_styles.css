@@ -5222,7 +5222,7 @@ select:hover {
     background: #e9b02b;
     border: 1px solid #e9b02b;
     color: #fff;
-    margin: 5px 5px;
+    margin: 10px 5px;
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
@@ -5252,7 +5252,7 @@ select:hover {
     color: #e9b02b;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin: 5px 5px;
+    margin: 10px 5px;
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
@@ -5483,7 +5483,7 @@ select:hover {
     background: #E9B02B;
     border: 1px solid #E9B02B;
     color: #fff;
-    margin: 5px 5px;
+    margin: 10px 5px;
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
@@ -5513,7 +5513,7 @@ select:hover {
     color: #E9B02B;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin: 5px 5px;
+    margin: 10px 5px;
     border-radius: 7px;
     cursor: pointer;
     text-align: center;
