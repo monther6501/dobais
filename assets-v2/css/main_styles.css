@@ -7918,6 +7918,149 @@ select:hover {
     border: 1px solid #fae7b2
 }
 
+
+  .product_block .product_info_block {
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        padding: 3px 5px 0px 5px;
+        overflow: hidden;
+        vertical-align: top;
+        clear: both;
+    }
+
+    .product_block .product_info_block .product_name {
+        width: 100%;
+        display: inline-block;
+        float: none;
+        text-align: right;
+        font-size: 13px;
+        color: #2c2c54;
+        color: #000;
+        margin-top: 1px;
+        vertical-align: top;
+        line-height: 1.3;
+        height: 36px;
+        overflow: hidden;
+        font-family: 'ge';
+        padding: 2px 0px 5px 0px;
+        margin-bottom: 5px;
+    }
+
+    .product_block .product_info_block .product_store_name {
+        width: calc(100% - 50px);
+        display: inline-block;
+        float: right;
+        text-align: right;
+        font-size: 11px;
+        height: 22px;
+        line-height: 22px;
+        color: #999;
+        margin-top: 0;
+        vertical-align: top;
+        overflow: hidden;
+        font-family: 'ge';
+    }
+
+    .product_block .product_info_block .product_other {
+        width: 50px;
+        display: inline-block;
+        float: left;
+        text-align: left;
+        margin-top: 0;
+        height: 22px;
+        vertical-align: top;
+        line-height: normal;
+        overflow: hidden;
+        font-family: 'ge';
+        padding: 2px 0px;
+    }
+
+    .product_block .product_info_block .product_other .product_brand {
+        width: 50px;
+        background: #F1B100;
+        color: #fff;
+        display: block;
+        float: left;
+        text-align: center;
+        font-size: 11px;
+        margin-top: 0;
+        vertical-align: top;
+        line-height: normal;
+        overflow: hidden;
+        font-family: 'ge_bold';
+        border-radius: 10px;
+        padding: 2px 4px;
+    }
+
+
+    
+    @media screen and (max-width: 576px) {
+
+    /* == Side of Code and % == */
+    .product_block .product_image_block {
+        display: block;
+        width: 100%;
+        height: 160px;
+        padding: 2px;
+        border-radius: 5px
+    }
+
+    .product_block .empty_block {
+        top: 90px;
+    }
+    
+    
+            .product_block .product_info_block, .product_block .product_image_block {
+                position: static;
+            }
+            
+             .product_block .product_info_block .product_like {
+            position: absolute;
+            top: 130px;
+            left: 15px;
+            color: #CE5858;
+            height: 28px;
+            width: 28px;
+            z-index: 1;
+            text-align: center;
+            background: rgba(250, 250, 250, 0.7);
+            padding: 0;
+            border-radius: 100px;
+            box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+        }
+
+        .product_block .product_info_block .product_like i {
+            color: #777;
+            text-align: center;
+            font-size: 20px;
+            margin: 0;
+            vertical-align: top;
+            line-height: normal;
+            overflow: hidden;
+            padding: 0px;
+            line-height: 28px;
+        }
+
+        .product_block .product_info_block .product_like i:hover {
+            font-size: 20px;
+            padding: 0px;
+        }
+
+            
+            .product_block .product_info_block .product_price {
+            width: calc(100% - 0px);
+            margin-top: 0;
+            display: block;
+            float: none;
+        }
+
+}
+    
+    
+
+
 .load_more_button {
     display: block;
     width: 110px;
@@ -12345,3 +12488,183 @@ button.Spicific-O-button-outline:hover {
         height: 140px;
     }
 
+
+
+
+   
+        /*********************************
+         24. Smart Banners
+*********************************/
+                                
+            #smart_banner {
+        display: block;
+                                    background: #F9F9F9;
+        height: 60px;
+        padding: 0px 10px;
+        direction: ltr;
+         width: 100%;               
+    font-family: 'ge';
+                                    margin: 0;
+                                    overflow: hidden;
+                                    position: fixed;
+                                    bottom: 0;
+                                    z-index: 99999;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    #smart_banner .smart_banner_logo {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    padding: 7px 0;
+    margin: 0;
+    vertical-align: top;
+    position: relative;
+        
+        overflow: hidden;
+}
+
+#smart_banner .smart_banner_logo img.applogo {
+    margin: 0px 0 0 0;
+    text-align: center;
+    width: 46px;
+    height: 46px;
+}
+
+
+
+/* == Close == */
+#smart_banner .smart_banner_close {
+    display: inline-block;
+    width: 10px;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    vertical-align: top;
+    color: #333;
+    font-family: sans-serif;
+    cursor: pointer
+}
+#smart_banner .smart_banner_close:hover {
+    color: #AAA;
+    font-weight: bold;
+}
+
+
+/* == Info == */
+#smart_banner .smart_banner_open {
+    display: inline-block;
+    width: 70px;
+    padding-left: 5px;
+    height: auto;
+    height: 60px;
+    line-height: 60px;
+    overflow: hidden;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    padding-top: 0px;
+    position: relative;
+    vertical-align: top;
+}
+
+#smart_banner .smart_banner_open .smart_banner_button {
+    margin: 15px 0 0px 0;
+    text-align: center;
+    display: block;
+    color: #FFF;
+    background: #2c2c54;
+    font-size: 14px;
+    border-radius: 15px;
+    height: 30px;
+    width: 65px;
+    line-height: 30px;
+    font-family: 'ge_bold';
+    cursor: pointer;
+}
+            
+#smart_banner .smart_banner_open .smart_banner_button:hover {
+    background: #444362;
+}
+
+
+/* == Info == */
+#smart_banner .smart_banner_info {
+    display: inline-block;
+    width: calc(100% - 150px);
+    height: auto;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    vertical-align: top;
+    direction: rtl;
+}
+
+#smart_banner .smart_banner_info .smart_banner_app_name {
+    margin: 6px 0px 0px 0px;
+    display: block;
+    color: #000;
+    font-size: 16px;
+    font-family: 'ge_bold';
+}
+            
+#smart_banner .smart_banner_info .smart_banner_app_deatils {
+    margin: 1px 0px 0px 0px;
+    display: block;
+    color: #444;
+    font-size: 13px;
+    font-family: 'ge';
+}
+
+            
+            @media only screen and (min-width: 3900px) {
+
+                    #smart_banner .smart_banner_logo {
+    display: inline-block;
+    width: 70px;
+    padding: 7px 5px;
+}
+                
+                
+/* == Close == */
+#smart_banner .smart_banner_close {
+    display: inline-block;
+    width: 20px;
+}
+                
+                /* == Open == */
+#smart_banner .smart_banner_open {
+    display: inline-block;
+    width: 175px;
+}
+
+#smart_banner .smart_banner_open .smart_banner_button {
+    margin: 15px 2px 0px 2px;
+    text-align: center;
+     display: inline-block;
+    color: #FFF;
+    background: #2c2c54;
+    width: 80px;
+}
+ 
+                
+                
+                /* == Info == */
+#smart_banner .smart_banner_info {
+    display: inline-block;
+    width: calc(100% - 275px);
+    height: auto;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    vertical-align: top;
+}
+            }
+        
